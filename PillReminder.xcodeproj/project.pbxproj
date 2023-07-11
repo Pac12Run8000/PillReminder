@@ -15,6 +15,8 @@
 		0947047D2A5DBC7700CB459D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947047C2A5DBC7700CB459D /* HomeView.swift */; };
 		094704802A5DBEC500CB459D /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947047F2A5DBEC500CB459D /* CustomButtonStyle.swift */; };
 		094704822A5DBF6D00CB459D /* PillReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704812A5DBF6D00CB459D /* PillReminderView.swift */; };
+		094704842A5DC66800CB459D /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704832A5DC66800CB459D /* RemindersView.swift */; };
+		094704862A5DC68400CB459D /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704852A5DC68400CB459D /* MedicationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		0947047C2A5DBC7700CB459D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0947047F2A5DBEC500CB459D /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		094704812A5DBF6D00CB459D /* PillReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillReminderView.swift; sourceTree = "<group>"; };
+		094704832A5DC66800CB459D /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		094704852A5DC68400CB459D /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				0947047C2A5DBC7700CB459D /* HomeView.swift */,
 				0947046D2A5DB45A00CB459D /* MainContentView.swift */,
 				094704812A5DBF6D00CB459D /* PillReminderView.swift */,
+				094704832A5DC66800CB459D /* RemindersView.swift */,
+				094704852A5DC68400CB459D /* MedicationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0947046E2A5DB45A00CB459D /* MainContentView.swift in Sources */,
+				094704842A5DC66800CB459D /* RemindersView.swift in Sources */,
 				0947047D2A5DBC7700CB459D /* HomeView.swift in Sources */,
+				094704862A5DC68400CB459D /* MedicationsView.swift in Sources */,
 				0947046C2A5DB45A00CB459D /* PillReminderApp.swift in Sources */,
 				094704802A5DBEC500CB459D /* CustomButtonStyle.swift in Sources */,
 				0947047B2A5DBC4A00CB459D /* PerscriptionView.swift in Sources */,

@@ -28,7 +28,14 @@ struct PillReminderView: View {
                 .foregroundColor(.blue)
                 .offset(x: selectedSegment == 0 ? -UIScreen.main.bounds.width / 6 : UIScreen.main.bounds.width / 6)
                 .animation(.spring())
+            
+            if selectedSegment == 0 {
+                            RemindersView()
+                        } else {
+                            MedicationsView()
+                        }
             Spacer()
+            
         }
     }
 }
