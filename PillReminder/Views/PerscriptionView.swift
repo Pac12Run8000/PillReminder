@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct PrescriptionView: View {
+    @State private var showingPillReminderView = false
     var body: some View {
         VStack {
                     Button(action: {
-                        print("Perscription Pill Reminder button tapped")
+                        showingPillReminderView = true
                     }) {
                         HStack {
                             Image(systemName: "clock.fill")
@@ -19,6 +20,9 @@ struct PrescriptionView: View {
                         }
                     }
                     .buttonStyle(CustomButtonStyle())
+                    .sheet(isPresented: $showingPillReminderView) {
+                        PillReminderView()
+                    }
                     
                     Button(action: {
                         print("Perscription History button tapped")
