@@ -13,6 +13,7 @@
 		094704732A5DB45B00CB459D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094704722A5DB45B00CB459D /* Preview Assets.xcassets */; };
 		0947047B2A5DBC4A00CB459D /* PerscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947047A2A5DBC4A00CB459D /* PerscriptionView.swift */; };
 		0947047D2A5DBC7700CB459D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947047C2A5DBC7700CB459D /* HomeView.swift */; };
+		094704802A5DBEC500CB459D /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947047F2A5DBEC500CB459D /* CustomButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		094704722A5DB45B00CB459D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0947047A2A5DBC4A00CB459D /* PerscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerscriptionView.swift; sourceTree = "<group>"; };
 		0947047C2A5DBC7700CB459D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0947047F2A5DBEC500CB459D /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		0947046A2A5DB45A00CB459D /* PillReminder */ = {
 			isa = PBXGroup;
 			children = (
+				0947047E2A5DBEB100CB459D /* Utilities */,
 				094704792A5DB46D00CB459D /* Views */,
 				0947046B2A5DB45A00CB459D /* PillReminderApp.swift */,
 				0947046F2A5DB45B00CB459D /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				0947046D2A5DB45A00CB459D /* MainContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0947047E2A5DBEB100CB459D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0947047F2A5DBEC500CB459D /* CustomButtonStyle.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				0947046E2A5DB45A00CB459D /* MainContentView.swift in Sources */,
 				0947047D2A5DBC7700CB459D /* HomeView.swift in Sources */,
 				0947046C2A5DB45A00CB459D /* PillReminderApp.swift in Sources */,
+				094704802A5DBEC500CB459D /* CustomButtonStyle.swift in Sources */,
 				0947047B2A5DBC4A00CB459D /* PerscriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
