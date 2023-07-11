@@ -17,6 +17,9 @@
 		094704822A5DBF6D00CB459D /* PillReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704812A5DBF6D00CB459D /* PillReminderView.swift */; };
 		094704842A5DC66800CB459D /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704832A5DC66800CB459D /* RemindersView.swift */; };
 		094704862A5DC68400CB459D /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704852A5DC68400CB459D /* MedicationsView.swift */; };
+		094704882A5DCBF400CB459D /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704872A5DCBF400CB459D /* WeekView.swift */; };
+		0947048A2A5DCC7200CB459D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094704892A5DCC7200CB459D /* Date+Extensions.swift */; };
+		0947048C2A5DCFB600CB459D /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947048B2A5DCFB600CB459D /* DateFormatter+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		094704812A5DBF6D00CB459D /* PillReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillReminderView.swift; sourceTree = "<group>"; };
 		094704832A5DC66800CB459D /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
 		094704852A5DC68400CB459D /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
+		094704872A5DCBF400CB459D /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		094704892A5DCC7200CB459D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		0947048B2A5DCFB600CB459D /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 				094704812A5DBF6D00CB459D /* PillReminderView.swift */,
 				094704832A5DC66800CB459D /* RemindersView.swift */,
 				094704852A5DC68400CB459D /* MedicationsView.swift */,
+				094704872A5DCBF400CB459D /* WeekView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				0947047F2A5DBEC500CB459D /* CustomButtonStyle.swift */,
+				094704892A5DCC7200CB459D /* Date+Extensions.swift */,
+				0947048B2A5DCFB600CB459D /* DateFormatter+Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -174,10 +183,13 @@
 				0947046E2A5DB45A00CB459D /* MainContentView.swift in Sources */,
 				094704842A5DC66800CB459D /* RemindersView.swift in Sources */,
 				0947047D2A5DBC7700CB459D /* HomeView.swift in Sources */,
+				0947048A2A5DCC7200CB459D /* Date+Extensions.swift in Sources */,
 				094704862A5DC68400CB459D /* MedicationsView.swift in Sources */,
 				0947046C2A5DB45A00CB459D /* PillReminderApp.swift in Sources */,
 				094704802A5DBEC500CB459D /* CustomButtonStyle.swift in Sources */,
+				094704882A5DCBF400CB459D /* WeekView.swift in Sources */,
 				0947047B2A5DBC4A00CB459D /* PerscriptionView.swift in Sources */,
+				0947048C2A5DCFB600CB459D /* DateFormatter+Extension.swift in Sources */,
 				094704822A5DBF6D00CB459D /* PillReminderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
