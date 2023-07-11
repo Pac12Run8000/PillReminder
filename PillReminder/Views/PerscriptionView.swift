@@ -11,6 +11,14 @@ struct PrescriptionView: View {
     @State private var showingPillReminderView = false
     var body: some View {
         VStack {
+                        NavigationLink(destination: PillReminderView()) {
+                            HStack {
+                                Image(systemName: "clock.fill")
+                                Text("Perscription Pill Reminder")
+                            }
+                        }
+                        .buttonStyle(CustomButtonStyle())
+            
                     Button(action: {
                         showingPillReminderView = true
                     }) {

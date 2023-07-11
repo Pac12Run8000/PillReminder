@@ -15,12 +15,13 @@ struct MainContentView: View {
                         Image(systemName: "house.fill")
                         Text("Home")
                     }
-                
+            NavigationView {
                 PrescriptionView()
-                    .tabItem {
-                        Image(systemName: "pills.fill")
-                        Text("Prescription")
-                    }
+            }
+                .tabItem {
+                    Image(systemName: "pills.fill")
+                    Text("Prescription")
+                }
             }
         }
 }
