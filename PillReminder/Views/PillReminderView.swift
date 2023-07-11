@@ -24,11 +24,10 @@ struct PillReminderView: View {
             .padding()
             
             Rectangle()
-                .frame(height: 2)
+                .frame(width: UIScreen.main.bounds.width / 3, height: 2)
                 .foregroundColor(.blue)
-                .offset(x: selectedSegment == 0 ? -UIScreen.main.bounds.width / 4 : UIScreen.main.bounds.width / 4)
+                .offset(x: selectedSegment == 0 ? -UIScreen.main.bounds.width / 6 : UIScreen.main.bounds.width / 6)
                 .animation(.spring())
-            
             Spacer()
         }
     }
